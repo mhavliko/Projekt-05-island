@@ -11,20 +11,18 @@
 
 
         <!-- hlavička -->
+        <header class="hlavicka">
+          <h1 class="titulek">Island</h1>
 
-        <h1 class="titulek">Island</h1>
+          <p class="perex">Když se řekne Island, spoustě lidem se jako první vybaví sníh a led. Sama jsem tam strávila téměř rok života a zem pokrytou sněhem a ledem jsem zažila jen jediný den. Jednou věcí si ale jistá jsem: že návštěva ostrova pod polárním kruhem je pro každého tak silným zážitkem, že se sem bude chtít vrátit.</p>
 
-        <p class="perex">Když se řekne Island, spoustě lidem se jako první vybaví sníh a led. Sama jsem tam strávila téměř rok života a zem pokrytou sněhem a ledem jsem zažila jen jediný den. Jednou věcí si ale jistá jsem: že návštěva ostrova pod polárním kruhem je pro každého tak silným zážitkem, že se sem bude chtít vrátit.</p>
-
-        <p class="autor">Jana Zcela Vymyšlená</p>
-
-
-
+          <p class="autor">Jana Zcela Vymyšlená</p>
+        </header>
 
         <!-- menu -->
-
+    
         <ul class="menu">
-            <li><a href="#">Úvod</a></li>
+            <li id="menu-uvod"><a href="#">Úvod</a></li>
             <li><a href="#">Proč jet na Island</a></li>
             <li><a href="#">Co musíte vidět</a></li>
             <li><a href="#">Fotogalerie</a></li>
@@ -39,13 +37,13 @@
         <p>Rád bych popsal některá místa, která prostě při návštěvě nemůžete vynechat. Není ani důvod, jejich dostupnost je výborná díky hlavní okružní cestě, po které pohodlně celý ostrov za několik dní objedete bez toho, abyste museli zajíždět do hůře dostupného vnitrozemí. I tam je samozřejmě spousta dech beroucích míst, ale za pár dní se stihnout bohužel vše nedá.</p>
 
         <p>Když máte to štěstí a zrovna nesoptí některá z místních sopek, nabízí tento vulkanicky nejaktivnější ostrov Evropy úžasné pohledy, které prostě jinde nemáte šanci spatřit. Pro Středoevropana, suchozemce je to úplně jiný svět.</p>
-
-
-        <img src="images/island1.jpg" alt="Island">
-        <p class="popisek">
-            Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a>
-        </p>
-
+      
+        <div class="obrazek">
+          <img src="images/island1.jpg" alt="Island">
+          <p class="popisek">
+              Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a>
+          </p>
+        </div>
 
         <!-- sekce Proč -->
 
@@ -57,12 +55,12 @@
 
         <p>Severní pobřeží je pak místy opravdová divočina, už tak mizivé osídlení ještě více prořídne a vy projíždíte místní fjordy po šotolinových cestách, aniž byste hodiny potkali jediné auto. Nad hlavou vám ční vysoké hory pokryté věčným sněhem, každým údolím se v kaskádách a vodopádech řítí dolů řeky, prostě divočina zamrznutá v čase. Dostane se vám to tu pod kůži a nutí Vás to přemýšlet, jak je ve skutečnosti člověk maličký a nicotný&hellip;</p>
 
-
+      <div class="obrazek">
         <img src="images/island2.jpg" alt="Island">
         <p class="popisek">
             Photo &copy; <a href="https://flic.kr/p/yiAg2h">Moyan Brenn</a>
         </p>
-
+      </div>
 
         <!-- sekce Co musíte vidět -->
 
@@ -78,11 +76,12 @@
 
         <p><strong>Seljalandsfoss</strong> - To už jsme na jižním pobřeží. Tento 60 metrů vysoký vodopád je výjimečný především tím, že se na něho můžete podívat nejen shora, ze stran, ale také jej obejít a hledět do okolní krajiny přes masy vody, které kolem Vás padají.</p>
 
-        <img src="images/island3.jpg" alt="Island">
-        <p class="popisek">
-            Photo &copy; <a href="https://flic.kr/p/LfcKHP">Yiannis Chatzitheodorou</a>
-        </p>
-
+        <div class="obrazek">
+          <img src="images/island3.jpg" alt="Island">
+          <p class="popisek">
+              Photo &copy; <a href="https://flic.kr/p/LfcKHP">Yiannis Chatzitheodorou</a>
+          </p>
+        </div>
 
         <!-- změna strany, aby to celé bylo hezčí :) -->
 
@@ -93,98 +92,97 @@
 
 
         <!-- sekce Fotogalerie -->
+ 
 
-		<h2>Fotogalerie</h2>
+		<h2 class="nadpis-galerie">Fotogalerie</h2>
 
-        <div class="galerie">
+    <div class="galerie">
 
-			<div class="foto">
-				<img src="images/nahled1.jpg" alt="Myvatn Aurora">
-				<p class="popisek">
-                    Myvatn Aurora<br>
-					<span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/GN5utm">Kriss Williams</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled1.jpg" alt="Myvatn Aurora">
+          <p class="popisek">
+                      Myvatn Aurora<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/GN5utm">Kriss Williams</a></span>
+          </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled2.jpg" alt="Mountains in Iceland">
-				<p class="popisek">
-                    Mountains in Iceland<br>
-					<span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/qCC5fd">Kamil Porembiński</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled2.jpg" alt="Mountains in Iceland">
+          <p class="popisek">
+                      Mountains in Iceland<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/qCC5fd">Kamil Porembiński</a></span>
+          </p>
+        </div>
 
-            <div class="foto">
-                <img src="images/nahled3.jpg" alt="Life on Mars">
-                <p class="popisek">
-                    Life on Mars<br>
-                    <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/DrxutX">Kriss Williams</a></span>
-                </p>
-            </div>
+        <div class="foto">
+            <img src="images/nahled3.jpg" alt="Life on Mars">
+            <p class="popisek">
+                Life on Mars<br>
+                <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/DrxutX">Kriss Williams</a></span>
+            </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled4.jpg" alt="Stokksnes Sands">
-				<p class="popisek">
-                    Stokksnes Sands<br>
-					<span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/vzopTG">Kriss Williams</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled4.jpg" alt="Stokksnes Sands">
+          <p class="popisek">
+            Stokksnes Sands<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/vzopTG">Kriss Williams</a></span>
+          </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
-				<p class="popisek">
-                    Svartifoss (Black Fall)<br>
-					<span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/v5Butv">Ron Kroetz</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
+          <p class="popisek">
+                      Svartifoss (Black Fall)<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/v5Butv">Ron Kroetz</a></span>
+          </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled6.jpg" alt="Landmannalaugar">
-				<p class="popisek">
-                    Landmannalaugar<br>
-                    <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/2SWHDd">Michel Osmont</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled6.jpg" alt="Landmannalaugar">
+          <p class="popisek">
+              Landmannalaugar<br>
+              <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/2SWHDd">Michel Osmont</a></span>
+          </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled7.jpg" alt="Iceland">
-				<p class="popisek">
-                    Iceland<br>
-                    <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/aaqZLk">Eric Montford</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled7.jpg" alt="Iceland">
+          <p class="popisek">
+            Iceland<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/aaqZLk">Eric Montford</a></span>
+          </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
-				<p class="popisek">
-                    Bruarfoss waterfalls<br>
-					<span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/nuUQM7">Moyan Brenn</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
+          <p class="popisek">
+            Bruarfoss waterfalls<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/nuUQM7">Moyan Brenn</a></span>
+          </p>
+        </div>
 
-			<div class="foto">
-				<img src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
-				<p class="popisek">
-                    Jokulsarlon glacier lagoon<br>
-					<span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/getEgS">Moyan Brenn</a></span>
-				</p>
-			</div>
+        <div class="foto">
+          <img src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
+          <p class="popisek">
+            Jokulsarlon glacier lagoon<br>
+            <span class="popisek-copy">Photo &copy; <a href="https://flic.kr/p/getEgS">Moyan Brenn</a></span>
+          </p>
+        </div>
 
 		</div><!-- konec .galerie -->
 
-
-
         <!-- patička -->
-
+      <footer class="paticka">
         <p>
             Texty převzaty z článků:<br>
             Roman Pech - <a href="http://cestovani.idnes.cz/island-a-roman-pech-0nh-/kolem-sveta.aspx?c=A140519_125122_kolem-sveta_tom">Závislost jménem Island. Tipy znalce, jak zemi levně procestovat</a><br>
             Michal Balada - <a href="http://www.pohora.cz/tipy-na-vylety/16352-cesta-kolem-islandu-za-10-dni/">Cesta kolem Islandu za 10 dní</a>
         </p>
-        <p>
+        <p class="uvodnifoto">
             Úvodní fotografie &copy; <a href="https://flic.kr/p/gett4S">Moyan Brenn</a>
         </p>
-
+      </footer>
 
     </body>
 </html>

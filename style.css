@@ -141,7 +141,11 @@ h2::after {
   text-align: center;
 }
 
-@media  (min-width:500px) {
+.menu li:hover a {
+  color: black;
+}
+
+@media (min-width:500px) {
   .menu li {
     flex-basis: 25%;
     border: solid;
